@@ -102,34 +102,6 @@ export const portfolio = [
     category: "frontend",
     title: "Dashboard - React",
   },
-  {
-    id: 3,
-    cover: "../images/port/port3.jpg",
-    name: "Brand",
-    category: "frontend",
-    title: "Brex Logo",
-  },
-  {
-    id: 4,
-    cover: "../images/port/port4.jpg",
-    name: "Brand",
-    category: "backend",
-    title: "Brex Logo",
-  },
-  {
-    id: 5,
-    cover: "../images/port/port5.jpg",
-    name: "Brand",
-    category: "backend",
-    title: "Brex Logo",
-  },
-  {
-    id: 6,
-    cover: "../images/port/port6.jpg",
-    name: "Brand",
-    category: "backend",
-    title: "Brex Logo",
-  },
 ]
 
 export const contact = [

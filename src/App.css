@@ -190,6 +190,9 @@ section {
 }
 
 /*---------services-------------*/
+.services{
+  margin-bottom: 100px;
+}
 .services .box {
   background-color: var(--primaryBackground);
   padding: 35px;
@@ -358,4 +361,12 @@ footer i {
     margin: 0;
     padding-bottom: 50px;
   }
+}
+
+.services{
+  margin-bottom: 200px;
+}
+
+.portfolioTop{
+  margin-top: 50px;
 }

@@ -5,7 +5,7 @@ import { Header } from "../common/Header"
 import { Home } from "../home/Home"
 import { About } from "./About"
 import { Contact } from "./Contact"
-import { Portfolio } from "./Portfolio"
+import { PortfolioSingle } from "./PortfolioSingle"
 import { Services } from "./Services"
 
 export const Pages = () => {
@@ -17,7 +17,7 @@ export const Pages = () => {
           <Route exact path='/' component={Home} />
           <Route exact path='/about' component={About} />
           <Route exact path='/services' component={Services} />
-          <Route exact path='/portfolio' component={Portfolio} />
+          <Route exact path='/portfolio' component={PortfolioSingle} />
           <Route exact path='/contact' component={Contact} />
         </Switch>
         <Footer />
