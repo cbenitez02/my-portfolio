@@ -94,6 +94,8 @@ export const portfolio = [
     name: "CB Portfolio",
     category: "frontend",
     title: "Personal Portfolio - React",
+    urlGit: "https://github.com/cbenitez02/my-portfolio",
+    urlDemo: "https://cbportfolioweb.netlify.app/"
   },
   {
     id: 2,
@@ -101,6 +103,8 @@ export const portfolio = [
     name: "youAdmin",
     category: "frontend",
     title: "Dashboard - React",
+    urlGit: "https://github.com/cbenitez02/dashboard-react",
+    urlDemo: "https://youadminpanel.netlify.app/"
   },
 ]
 
