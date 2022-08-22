@@ -60,6 +60,11 @@ button {
   border-radius: 50px;
   margin-top: 20px;
   cursor: pointer;
+  transition: all 300ms ease;
+}
+
+button:hover{
+  background-color: #e0a80db8;
 }
 .fontSize {
   font-size: 20px;
@@ -67,6 +72,12 @@ button {
 .primaryBtn {
   background: none;
   border: 2px solid var(--primaryColor);
+  transition: all 300ms ease;
+}
+
+.primaryBtn:hover{
+  background-color: var(--primaryColor);
+  color: var(--white);
 }
 /*---------header-------------*/
 header {
@@ -252,6 +263,30 @@ article .box:hover .overlay {
   text-transform: capitalize;
   margin-right: 20px;
 }
+
+.buttonProject{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin: 10px 0;
+}
+
+.buttonProject a{
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.linkOverlay{
+  transition: all 300ms ease;
+}
+
+.linkOverlay:hover{
+  color: var(--white);
+}
+
+
 /*---------portfolio-------------*/
 
 /*---------contact-------------*/

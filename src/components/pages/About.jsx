@@ -17,7 +17,7 @@ export const About = () => {
                 <p>{val.desc}</p>
                 <p>Among the programming languages that I handle, tools and agile methodologies are: <b>HTML, CSS, SASS, JavaScript, React, Redux, Node, Express, MySQL.</b> Practices and Knowledge: <b>AJAX, Promises, Web Server, Web API's, Testing, Agile methodologies (SCRUM)</b></p>
                 <button>Download CV</button>
-                <button className='primaryBtn'>Download CV</button>
+                <button className='primaryBtn'>GitHub Projects</button>
               </div>
             </>
           ))}

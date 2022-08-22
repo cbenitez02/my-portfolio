@@ -20,7 +20,7 @@ export const Hero = () => {
               />
             </h1>
             <p data-aos='fade-left'>{val.desc}</p>
-            <button className='primaryBtn' data-aos='fade-up-right'>
+            <button className='primaryBtn' data-aos='fade-up-right' style={{transition: "all 300ms ease"}}>
               Download CV
             </button>
           </div>

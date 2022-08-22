@@ -1,7 +1,8 @@
 import React, { useState } from "react"
 import { Heading } from "../common/Heading"
 import { portfolio } from "../data/data"
-import VisibilityOutlinedIcon from "@mui/icons-material/VisibilityOutlined"
+import GitHubIcon from "@mui/icons-material/GitHub"
+import VisibilityIcon from '@mui/icons-material/Visibility';
 
 const allCategory = ["all", ...new Set(portfolio.map((item) => item.category))]
 export const Portfolio = () => {
@@ -25,7 +26,7 @@ export const Portfolio = () => {
           <Heading title='Portfolio' />
           <div className='catButton'>
             {category.map((category) => (
-              <button className='primaryBtn' onClick={() => filterItems(category)} data-aos='zoom-out-down'>
+              <button className='primaryBtn' onClick={() => filterItems(category)} data-aos='zoom-out-down' style={{transition: "all 300ms ease"}}>
                 {category}
               </button>
             ))}
@@ -39,7 +40,16 @@ export const Portfolio = () => {
                 <div className='overlay'>
                   <h3>{item.title}</h3>
                   <span>{item.name}</span>
-                  <VisibilityOutlinedIcon />
+                  <div className="buttonProject">
+                    <a href="https://github.com" target="_blank" rel="noreferrer" className="linkOverlay">
+                      <GitHubIcon />
+                      <span>Code</span>
+                    </a>
+                    <a href="https://github.com" target="_blank" rel="noreferrer" className="linkOverlay">
+                      <VisibilityIcon/>
+                      <span>Demo</span>
+                    </a>
+                  </div>
                 </div>
               </div>
             ))}
