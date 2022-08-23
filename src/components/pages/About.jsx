@@ -1,6 +1,7 @@
 import React from "react"
 import { Heading } from "../common/Heading"
 import { about } from "../data/data"
+import CV from '../data/CV-Cristian-Benitez.pdf'
 
 export const About = () => {
   return (
@@ -16,7 +17,9 @@ export const About = () => {
                 <Heading title='About Me' />
                 <p>{val.desc}</p>
                 <p>Among the programming languages that I handle, tools and agile methodologies are: <b>HTML, CSS, SASS, JavaScript, React, Redux, Node, Express, MySQL.</b> Practices and Knowledge: <b>AJAX, Promises, Web Server, Web API's, Testing, Agile methodologies (SCRUM)</b></p>
-                <button>Download CV</button>
+                <a href={CV} download>
+                  <button>Download CV</button>
+                </a>
                 <button className='primaryBtn'>GitHub Projects</button>
               </div>
             </>

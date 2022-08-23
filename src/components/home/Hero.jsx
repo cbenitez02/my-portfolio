@@ -1,5 +1,6 @@
 import { home } from "../data/data"
 import Typewriter from "typewriter-effect"
+import CV from '../data/CV-Cristian-Benitez.pdf'
 
 export const Hero = () => {
   return (
@@ -20,9 +21,11 @@ export const Hero = () => {
               />
             </h1>
             <p data-aos='fade-left'>{val.desc}</p>
-            <button className='primaryBtn' data-aos='fade-up-right' style={{transition: "all 300ms ease"}}>
-              Download CV
-            </button>
+            <a href={CV} download>
+              <button className='primaryBtn' data-aos='fade-up-right' style={{transition: "all 300ms ease"}}>
+                Download CV
+              </button>
+            </a>
           </div>
         ))}
       </section>
