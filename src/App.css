@@ -370,3 +370,8 @@ footer i {
 .portfolioTop{
   margin-top: 50px;
 }
+
+.cardhover:hover{
+  background-color: #e0a80d5d;
+  
+}
