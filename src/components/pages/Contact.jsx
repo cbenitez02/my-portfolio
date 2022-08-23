@@ -22,8 +22,8 @@ export const Contact = () => {
             </div>
             <div className='left'>
               {contact.map((item) => (
-                <div className='box' data-aos='zoom-in'>
-                  <i>{item.icon}</i>
+                <div className='box' data-aos='zoom-in' style={{margin: "10px 0px"}}>
+                  <i style={{color: "var(--primaryColor)"}}>{item.icon}</i>
                   <p>{item.text1}</p>
                   <p>{item.text2}</p>
                 </div>
