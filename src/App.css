@@ -289,7 +289,6 @@ article .box:hover .overlay {
   color: var(--white);
 }
 
-
 /*---------portfolio-------------*/
 
 /*---------contact-------------*/
@@ -355,11 +354,18 @@ footer i {
   }
   .grid4,
   .grid3 {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
   article {
     margin: 0;
     padding-bottom: 50px;
+  }
+  .catButton{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
   }
 }
 
@@ -374,4 +380,12 @@ footer i {
 .cardhover:hover{
   background-color: #e0a80d5d;
   
+}
+
+.nohover{
+  margin-top: -20px;
+}
+
+.nohover:hover{
+  background-color: transparent;
 }

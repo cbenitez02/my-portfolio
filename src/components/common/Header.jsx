@@ -20,7 +20,7 @@ export const Header = () => {
               </Link>
             ))}
           </div>
-          <button className='toggle' onClick={() => setResponsive(!responsive)}>
+          <button className='toggle nohover' onClick={() => setResponsive(!responsive)}>
             <Menu className='icon' />
           </button>
         </div>
