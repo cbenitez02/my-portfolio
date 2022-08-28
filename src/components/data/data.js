@@ -1,15 +1,17 @@
-import { ColorLens,
+import {
+  ColorLens,
   CropRotate,
   ViewInAr,
   AssignmentInd,
   Groups,
-  AddLocationAltOutlined, 
-  PhoneIphone, 
-  EmailOutlined, 
+  AddLocationAltOutlined,
+  PhoneIphone,
+  EmailOutlined,
   GitHub,
   LinkedIn,
-  Work, 
-  WhatsApp} from "@mui/icons-material"
+  Work,
+  WhatsApp,
+} from "@mui/icons-material";
 
 export const navlink = [
   {
@@ -32,7 +34,7 @@ export const navlink = [
     url: "/contact",
     text: "Contact",
   },
-]
+];
 export const home = [
   {
     text: "HELLO I'M",
@@ -41,13 +43,13 @@ export const home = [
     design: "Web Designer",
     desc: "Full-Stack web developer graduated from Henry. My passion for programming started when I was 14 years old and since then I have never stopped learning more and more about this world. Today I can proudly say that I am a FullStack Developer with a wide range of technologies learned.",
   },
-]
+];
 export const about = [
   {
     desc: "Hello World! I'm Cristian Benitez, I'm 20 years old and I'm a Full-Stack Web Developer. My path in programming began at the age of 14 programming my first addition and subtraction in JAVA, today after 6 years taking courses and learning in a self-taught way I consider myself a very competent Web Developer capable of facing any challenge and overcoming it with success.",
     cover: "./images/man.png",
   },
-]
+];
 export const services = [
   {
     id: 1,
@@ -85,7 +87,7 @@ export const services = [
     title: "Project Experience",
     desc: "Experience in multiple personal projects created from known technologies",
   },
-]
+];
 
 export const portfolio = [
   {
@@ -95,7 +97,7 @@ export const portfolio = [
     category: "frontend",
     title: "Personal Portfolio - React",
     urlGit: "https://github.com/cbenitez02/my-portfolio",
-    urlDemo: "https://cbportfolioweb.netlify.app/"
+    urlDemo: "https://cbportfolioweb.netlify.app/",
   },
   {
     id: 2,
@@ -104,9 +106,27 @@ export const portfolio = [
     category: "frontend",
     title: "Dashboard - React",
     urlGit: "https://github.com/cbenitez02/dashboard-react",
-    urlDemo: "https://youadminpanel.netlify.app/"
+    urlDemo: "https://youadminpanel.netlify.app/",
   },
-]
+  {
+    id: 3,
+    cover: "../images/port/port3.png",
+    name: "amazona",
+    category: "backend",
+    title: "MERN - Copy Amazon",
+    urlGit: "https://github.com/cbenitez02/copy-amazon-MERN",
+    urlDemo: "https://mern-amazona-app.herokuapp.com/",
+  },
+  {
+    id: 4,
+    cover: "../images/port/port4.png",
+    name: "DARDO BOTTO PAGE",
+    category: "backend",
+    title: "Landing Page",
+    urlGit: "",
+    urlDemo: "http://www.estudiodardobotto.com/",
+  },
+];
 
 export const contact = [
   {
@@ -121,18 +141,18 @@ export const contact = [
     icon: <EmailOutlined />,
     text1: "cbenitez1265@gmail.com",
   },
-]
+];
 export const social = [
   {
     icon: <GitHub />,
-    url: "https://github.com/cbenitez02"
+    url: "https://github.com/cbenitez02",
   },
   {
     icon: <LinkedIn />,
-    url: "https://www.linkedin.com/in/cristian-benitez-5b817b242/overlay/contact-info/"
+    url: "https://www.linkedin.com/in/cristian-benitez-5b817b242/overlay/contact-info/",
   },
   {
     icon: <WhatsApp />,
-    url: "https://wa.me/543415008550"
+    url: "https://wa.me/543415008550",
   },
-]
+];
