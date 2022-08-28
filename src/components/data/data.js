@@ -129,9 +129,9 @@ export const portfolio = [
   {
     id: 5,
     cover: "../images/port/port5.png",
-    name: "Shoping Cart",
+    name: "Angular Project",
     category: "angular",
-    title: "with Angular",
+    title: "Shoping Cart",
     urlGit: "",
     urlDemo: "https://github.com/cbenitez02/simple-eccomerce-angular",
   },
