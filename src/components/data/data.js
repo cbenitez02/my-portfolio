@@ -126,6 +126,15 @@ export const portfolio = [
     urlGit: "",
     urlDemo: "http://www.estudiodardobotto.com/",
   },
+  {
+    id: 5,
+    cover: "../images/port/port5.png",
+    name: "Shoping Cart",
+    category: "angular",
+    title: "with Angular",
+    urlGit: "",
+    urlDemo: "https://github.com/cbenitez02/simple-eccomerce-angular",
+  },
 ];
 
 export const contact = [
