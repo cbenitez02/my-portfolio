@@ -12,7 +12,7 @@ const Footer = () => {
             </a>
           </>
         ))}
-        <p data-aos='zoom-in'>All Right Resceved - Cristian Benitez</p>
+        <p data-aos='zoom-in'>Copyright &copy; All Right Resceved - Cristian Benitez</p>
       </footer>
     </>
   )
