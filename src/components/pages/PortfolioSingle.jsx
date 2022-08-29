@@ -41,11 +41,11 @@ export const PortfolioSingle = () => {
                   <h3>{item.title}</h3>
                   <span>{item.name}</span>
                   <div className="buttonProject">
-                    <a href="https://github.com" target="_blank" rel="noreferrer" className="linkOverlay">
+                    <a href={item.urlGit} target="_blank" rel="noreferrer" className="linkOverlay">
                       <GitHubIcon />
                       <span>Code</span>
                     </a>
-                    <a href="https://github.com" target="_blank" rel="noreferrer" className="linkOverlay">
+                    <a href={item.urlDemo} target="_blank" rel="noreferrer" className="linkOverlay">
                       <VisibilityIcon/>
                       <span>Demo</span>
                     </a>
